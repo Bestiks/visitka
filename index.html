@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персональное Портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Портфолио</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Привет, я <span class="highlight">Ibrahim</span></h1>
+                <h2>Веб-разработчик и Дизайнер</h2>
+                <p>Создаю красивые цифровые решения</p>
+                <a href="#contact" class="btn">Связаться со мной</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-img" data-aos="fade-right" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" alt="Фото профиля">
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-delay="400">
+                    <h3>Кто я?</h3>
+                    <p>Я увлеченный веб-разработчик, который фокусируется на создании интуитивно понятных и привлекательных пользовательских интерфейсов. Обладая опытом в HTML, CSS и JavaScript, я создаю адаптивные веб-сайты, которые отлично выглядят на любом устройстве.</p>
+                    <p>Когда я не пишу код, вы можете найти меня изучающим новые технологии, вносящим вклад в проекты с открытым исходным кодом или наслаждающимся активным отдыхом на природе.</p>
+                    <div class="about-buttons">
+                        <a href="#" class="btn">Скачать резюме</a>
+                        <a href="#projects" class="btn btn-outline">Посмотреть работы</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Мои навыки</h2>
+            <div class="skills-container">
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                    </div>
+                    <h3>HTML</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                    </div>
+                    <h3>CSS</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="skill-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Адаптивный дизайн">
+                    </div>
+                    <h3>Адаптивный дизайн</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="width: 92%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Мои проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=2064&auto=format&fit=crop" alt="Проект 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Проект Первый</h3>
+                        <p>Адаптивный веб-сайт с современным дизайном и плавными анимациями.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm">Смотреть сайт</a>
+                            <a href="#" class="btn btn-sm btn-outline">Исходный код</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1974&auto=format&fit=crop" alt="Проект 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Проект Второй</h3>
+                        <p>Интерактивное веб-приложение с продвинутой функциональностью на JavaScript.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm">Смотреть сайт</a>
+                            <a href="#" class="btn btn-sm btn-outline">Исходный код</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop" alt="Проект 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Проект Третий</h3>
+                        <p>Креативная целевая страница с уникальными анимациями и эффектами.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm">Смотреть сайт</a>
+                            <a href="#" class="btn btn-sm btn-outline">Исходный код</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Связаться со мной</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Электронная почта</h3>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Телефон</h3>
+                            <p>+7 123 456 78 90</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Местоположение</h3>
+                            <p>Москва, Россия</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left" data-aos-delay="400">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Ваш email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Тема сообщения" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ваше Имя. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
